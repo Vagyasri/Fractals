@@ -4,7 +4,14 @@
 
 - This game involves the generation of 1 koch snowflake. To create a koch snowflake, we start with an equilateral triangle and replace the middle third of every line segment with a pair of line segments that form an equilateral "bump".
 
-![Snowflake](1.png) 
+![Snowflake](1.png)
+
+## Objective
+- Calculate the perimeter of the resulting snowflake in each iteration for the given length of equilateral triangle
+  ![TriPerimeter](2.png)
+
+- Calculate the perimeter of the resulting snowflake in each iteration for the given length of square
+  ![SqPerimeter](3.png)
 
 ## Built With
 
