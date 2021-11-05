@@ -3,17 +3,16 @@ import './style.css';
 // eslint-disable-next-line max-len
 // Question: calculate the perimeter of the resulting snowflake in each iteration for the given length of equilateral triangle.
 
-// tri Length=243 Iterations=3
-// 1728
+// Example: triangle Length=9 Iterations=1
+// Output: 36
 
-// tri Length=19683 Iterations=7
-// 442368
+// 1. tri Length=243 Iterations=3 // 1728
 
-// tri Length=531441 Iterations=7
-// 11943936
+// 2. tri Length=19683 Iterations=7 // 442368
 
-// tri Length=531441 Iterations=9
-// 21233664
+// 3. tri Length=531441 Iterations=7 // 11943936
+
+// 4. tri Length=531441 Iterations=9 // 21233664
 
 const triPerimeter = (length) => length * 3;
 
