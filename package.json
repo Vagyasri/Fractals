@@ -1,7 +1,7 @@
 {
-  "name": "cusine-variant",
+  "name": "fractals",
   "version": "1.0.0",
-  "description": "In this project, we are creating a website consisting of Recipes from around the world. We are using a Kanban board for practice purposes and we have used an external API.s",
+  "description": "This game involves the generation of koch snowflakes using Javascript",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vagyasri/Cusine-variant.git"
+    "url": "git+https://github.com/Vagyasri/fractals.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vagyasri/Cusine-variant/issues"
+    "url": "https://github.com/Vagyasri/fractals/issues"
   },
-  "homepage": "https://github.com/Vagyasri/Cusine-variant#readme",
+  "homepage": "https://github.com/Vagyasri/fractals#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.3.0",
