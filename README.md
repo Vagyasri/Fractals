@@ -13,6 +13,8 @@
 - Calculate the perimeter of the resulting snowflake in each iteration for the given length of square
   ![SqPerimeter](3.png)
 
+The number inside denotes the iteration involved.  
+
 ## Built With
 
 - HTML
