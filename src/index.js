@@ -19,7 +19,7 @@ const triPerimeter = (length) => length * 3;
 const periAftIterations = (iterations, length) => {
   let perimeter = 0;
   for (let i = 1; i <= iterations; i += 1) {
-    perimeter = (triPerimeter(length) * ((4 / 3) ** i));
+    perimeter = Math.round(triPerimeter(length) * ((4 / 3) ** i));
   }
   return perimeter;
 };
