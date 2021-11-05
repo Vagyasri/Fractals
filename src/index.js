@@ -3,16 +3,16 @@ import './style.css';
 // eslint-disable-next-line max-len
 // Question: calculate the perimeter of the resulting snowflake in each iteration for the given length of square
 
-// Example: triangle Length=9 Iterations=1
-// Output: 36
+// Example: square Length=9 Iterations=1
+// Output: 60
 
-// 1. tri Length=243 Iterations=3 // 1728
+// 1. sq Length=243 Iterations=3 // 4500
 
-// 2. tri Length=19683 Iterations=7 // 442368
+// 2. sq Length=19683 Iterations=7 // 2812500
 
-// 3. tri Length=531441 Iterations=7 // 11943936
+// 3. sq Length=531441 Iterations=7 // 75937500
 
-// 4. tri Length=531441 Iterations=9 // 21233664
+// 4. sq Length=531441 Iterations=9 // 210937500
 
 const sqPerimeter = (length) => length * 4;
 
@@ -24,4 +24,9 @@ const periAftIterations = (iterations, length) => {
   return perimeter;
 };
 
-console.log(periAftIterations(1, 9));
+const len = [243, 19683, 531441, 531441];
+const itr = [3, 7, 7, 9];
+
+for (let i = 0; i < len.length; i += 1) {
+  console.log(periAftIterations(itr[i], len[i]));
+}
